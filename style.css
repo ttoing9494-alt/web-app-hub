@@ -14,3 +14,8 @@ a { color: #4e326d; }
 .grid a { display: flex; flex-direction: column; gap: 8px; text-decoration: none; font-weight: 700; }
 .grid a:hover { background: #f2eafa; }
 a:focus-visible { outline: 3px solid #634683; outline-offset: 3px; }
+.diary + .diary { margin-top: 14px; }
+li + li { margin-top: 8px; }
+output { font-size: 2rem; font-weight: 750; font-variant-numeric: tabular-nums; }
+button { min-height: 44px; border: 0; border-radius: 10px; padding: 8px 16px; background: #634683; color: white; font: inherit; cursor: pointer; }
+button:focus-visible { outline: 3px solid #634683; outline-offset: 3px; }

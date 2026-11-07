@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<title>성인 심폐소생술 연습 | 웹앱 허브</title>
+<link rel="stylesheet" href="../style.css">
+<script src="./practice.js" defer></script>
+</head>
+<body><main>
+<p><a href="../">← 웹앱 허브</a></p>
+<header><p class="tag">성인 응급처치 교육</p><h1>심폐소생술 연습</h1>
+<p><strong>실제 응급상황에서는 즉시 <a href="tel:119">119에 신고</a>하고 구급상황요원의 안내를 따르세요.</strong></p></header>
+<section class="diary"><h2>성인 심장정지 대응 순서</h2>
+<ol>
+<li>현장이 안전한지 확인한 뒤 어깨를 두드리며 반응을 확인합니다.</li>
+<li>반응이 없으면 119에 신고하고 주변 사람에게 자동심장충격기(AED)를 요청합니다.</li>
+<li>호흡이 없거나 비정상적이면 가슴 중앙을 약 5cm 깊이로 분당 100~120회 압박합니다. 누른 뒤에는 가슴이 완전히 올라오게 합니다.</li>
+<li>AED가 도착하면 전원을 켜고 음성 지시에 따릅니다. 분석이나 충격이 끝나면 안내에 따라 가슴압박을 다시 시작합니다.</li>
+</ol>
+<p><a href="https://www.kdca.go.kr/bbs/kdca/49/305205/download.do">질병관리청 2025년 한국 심폐소생술 가이드라인</a></p>
+</section>
+<section class="diary"><h2>가슴압박 박자 연습</h2>
+<p>분당 110회. 박자에 맞춰 화면의 숫자가 바뀝니다. 실습은 교육용 마네킹에서 하세요.</p>
+<p>박자 <output id="beat" aria-live="off">0</output></p>
+<button id="toggle" type="button">연습 시작</button>
+<p id="status" role="status"></p>
+</section>
+</main></body>
+</html>
